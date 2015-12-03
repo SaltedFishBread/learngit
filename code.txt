@@ -1,0 +1,19 @@
+mkdir XXXXXX //版本库名
+cd XXXXXX
+pwd
+
+git init //建库
+
+git add X//将X文件添加到库
+
+git commit -m ""//将文件提交到库(""中是提交说明)
+
+git status //查看库的状态
+
+git diff X //对比X文件与库内X文件的区别
+
+git log //查看文件的历史记录
+
+git reset //回退版本（git reset --hard HEAD上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100）
+
+git relog //查看命令历史
